@@ -29,7 +29,7 @@ jobs:
     
     #Install dependencies for build
     - name: Install dependencies
-      run: sudo apt-get install pulseaudio-dev 
+      run: sudo apt-get install libpulse-dev
     
     - name: Clean the build
       run: make clean
